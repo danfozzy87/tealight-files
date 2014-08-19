@@ -8,6 +8,6 @@ from tealight.robot import (move,
 
 # Add your code her
 
-move()
+def 
 
 
