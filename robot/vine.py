@@ -13,7 +13,7 @@ def recursion(count, end):
   if touch() == 'fruit':
     move()
     recursion(count+1, 'false')
-  else if left_side() == 'fruit':
+  elif left_side() == 'fruit':
     turn(-1)
     #recursion(0, 'false') 
   else:
