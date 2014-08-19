@@ -9,6 +9,7 @@ from tealight.robot import (move,
 
 
 def recursion(count, end):
+
   if touch() == 'fruit':
     move()
     recursion(count+1, 'false')
