@@ -7,7 +7,7 @@ from random import random
 
 i = 0
 
-while i < 10000:
+while i < 100000:
   move(random()*10)
   turn(random()*360)
   print i
