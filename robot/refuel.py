@@ -8,6 +8,10 @@ from tealight.robot import (move,
 
 # Add your code her
 
-def 
+def find_fuel():
+  move()
+  if left_side() == 'wall'
+  
+  
 
 
