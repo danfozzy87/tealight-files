@@ -15,11 +15,11 @@ def recursion(count):
     
   if left_side() == 'fruit':
     turn(-1)
-    recursion()
+    recursion(0)
     
   if right_side() == 'fruit':
     turn(1)
-    recursion()
+    recursion(0)
   
   turn(2)
   for i in range(0,count):
