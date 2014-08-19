@@ -26,6 +26,8 @@ def recursion(count):
     recursion()
   
   turn(2)
-  for(i = 0
+  for i in range(0,count)
+    move()
+    recursion(0)
     
 recursion(0)
