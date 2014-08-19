@@ -27,7 +27,7 @@ lastx = None
 lasty = None
 hue = 0
 
-def handle_mousemove(x,y):
+def handle_mouseclick(x,y):
   global lastx, lasty, hue
   
   line(lastx or x, lasty or y, x, y)
