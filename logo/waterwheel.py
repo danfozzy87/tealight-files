@@ -15,11 +15,11 @@ def waterwheel(edges, size):
   angle = 360 / edges
   decoration = size / 2
   for i in range(0, edges):
-    triangle(decoration)
     move(size)
     #square(decoration)
+    triangle(decoration)
     turn(angle)
     
 
-turn(-90)
+turn(-60)
 waterwheel(12,75)
