@@ -8,11 +8,11 @@ from tealight.robot import (move,
 
 
 
-def recursion(count, end):
+def recursion(count):
 
   if touch() == 'fruit':
     move()
-    recursion(count+1, 'false')
+    recursion(count+1)
   elif left_side() == 'fruit':
     turn(-1)
     #recursion(0, 'false') 
@@ -20,9 +20,9 @@ def recursion(count, end):
     turn(2)
     for i in range(0,count):
       move()
-      recursion(0, 'true')
+      recursion(0)
     
     turn(-1)
-    recursion(0, 'true')
+    recursion(0)
     
 recursion(0, 'false')
