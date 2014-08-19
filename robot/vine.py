@@ -21,7 +21,7 @@ def recursion(count, end):
     turn(1)
     recursion(0, 'false')
   
-  if end == false:
+  if end == 'false':
     turn(2)
     for i in range(0,count):
       move()
