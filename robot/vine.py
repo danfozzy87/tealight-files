@@ -21,9 +21,11 @@ def recursion(count):
     turn(1)
     recursion(0)
   
+  
   turn(2)
   for i in range(0,count):
     move()
-    recursion(0)
+  
+  recursion(0)
     
 recursion(0)
