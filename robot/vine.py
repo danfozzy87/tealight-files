@@ -17,11 +17,12 @@ def recursion():
     
   if left_side() == 'fruit':
     turn(-1)
-    countright++
+    countleft = countleft + 1
     recursion()
     
   if right_side() == 'fruit':
     turn(1)
+    countright = countright + 1
     recursion()
     
     
