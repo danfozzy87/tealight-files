@@ -13,7 +13,7 @@ def triangle(side):
 
 def waterwheel(edges, size):
   angle = 360 / edges
-  decoration = size / 2
+  decoration = size / 3
   for i in range(0, edges):
     move(size)
     #square(decoration)
