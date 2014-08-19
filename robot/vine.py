@@ -11,6 +11,7 @@ from tealight.robot import (move,
 def recursion():
   if touch() == 'fruit':
     move()
+    recursion()
   if left_side() == 'fruit':
     turn(-1)
     recursion()
