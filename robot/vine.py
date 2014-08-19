@@ -23,6 +23,6 @@ def recursion(count, end):
       recursion(0, 'true')
     
     turn(-1)
-    #recursion(0, 'false')
+    recursion(0, 'true')
     
 recursion(0, 'false')
