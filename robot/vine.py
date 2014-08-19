@@ -25,4 +25,4 @@ def recursion(count):
     turn(-1)
     recursion(0)
     
-recursion(0, 'false')
+recursion(0)
