@@ -16,11 +16,7 @@ def recursion(count, end):
     
   if left_side() == 'fruit':
     turn(-1)
-    recursion(0, 'false')
-    
-#  if right_side() == 'fruit':
-#    turn(1)
-#    recursion(0, 'false')
+    recursion(0, 'false')  
   
   if end == 'false':
     turn(2)
